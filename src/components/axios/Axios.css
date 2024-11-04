@@ -1,0 +1,12 @@
+.axios-main{
+    width: 70rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.3rem;
+    text-align: center;margin: auto;
+}
+.axios-card{
+    border: 1px solid gray;
+    padding: 25px 15px;
+    /* width: 250px; */
+}

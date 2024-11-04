@@ -1,0 +1,10 @@
+.home-smile{
+    transform:translateY(200px);
+    transition: all 1.5s ease-in-out;
+}
+
+.home-welcome{
+    transform: translateY(-200px);
+    height: 0;
+    transition: all 1s ease-in-out;
+}

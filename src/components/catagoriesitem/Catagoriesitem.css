@@ -1,0 +1,22 @@
+.catagories-item-body{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.catagories-item-body:hover{
+    box-shadow: 0 0 10px 2px cyan;
+}
+.catagories-item-body p{
+   
+    color: black;
+}
+.cata-link-div {
+    text-decoration: none !important;
+  }
+  .cata-link-div a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .catagories-item-main a{
+    text-decoration: none;
+  }
+  

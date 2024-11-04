@@ -1,0 +1,82 @@
+
+nav{
+    height: 55px;
+}
+
+a{
+    text-decoration: none;
+}
+link{
+    text-decoration: none;
+}
+.navbar a, .navbar h5 {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .navbar {
+    background-color: rgb(255, 255, 255);
+  }
+.navbar .logo h5{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.navbar .logo p{
+    font-size: 8px;
+
+    
+}
+/* .navlogo{
+    transform: translateX(-200px);
+} */
+nav .logo p{
+    transform: translateY(-9px);
+    font-size: 9px;
+    text-transform: uppercase;
+}
+.nav-contents{
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    width: 43%;
+    height: 40px;
+    margin-right: 2rem;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-contents h5{
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(235, 235, 235);
+}
+.nav-details{
+    /* border: 1px solid white; */
+    display: flex;
+    width: 27%;height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    margin-right:3rem;
+}
+.nav-details h5{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(249, 249, 249);
+}
+/* ----------------mediaQuery===== */
+
+@media screen and (max-width:770px){
+    .navbar h2{font-size: 20px;padding-bottom: 6px;}
+    .navbar h5{font-size: 10px;}
+    .logoutbtn{height:30px;width: 90px;}
+}
+@media screen and (max-width:570px){
+    .navbar h2{font-size: 16px;}
+    .navbar .logo p{font-size:7px;}
+    .navbar  h5{font-size:8px;}
+    .logoutbtn p {font-size: 10px;}
+    
+}

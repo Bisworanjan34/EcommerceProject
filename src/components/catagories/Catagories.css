@@ -1,0 +1,30 @@
+
+.catagories-main-div{
+    /* background-image: url('../../assets/nice.jpg'); */
+    background-image:linear-gradient(to right,rgb(179, 0, 244),rgb(19, 249, 246));
+    background-position-y: top(50%);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+}
+.catagories-div{
+   
+    width: 100%;
+    height: 230px;
+    gap: 2rem;
+    /* align-items: center; */
+  
+}
+.catagories-main-div::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.32);
+    z-index: -1;
+    
+}

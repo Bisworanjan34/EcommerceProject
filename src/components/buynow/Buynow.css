@@ -1,0 +1,13 @@
+.buynow-main-div{
+    background-color:aliceblue;
+    min-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.buynow-details{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}

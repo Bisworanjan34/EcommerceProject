@@ -1,0 +1,8 @@
+.main-card-div a{
+    text-decoration:none;
+    /* color: rgb(239, 255, 234); */
+}
+
+.addwishlist{
+    cursor: pointer;
+}
